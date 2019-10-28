@@ -1,0 +1,71 @@
+*{margin: 0;padding: 0;box-sizing: border-box;
+}
+body{
+    text-align: center;
+    background-color: #00859B;
+}
+.formata-texto{
+    font-family: robot; 
+    font-weight: 400;
+    font-size: 18px;
+}
+a{text-decoration:none;}
+@font-face{
+    font-family: robot;
+    src: url(../fontes/Montserrat.ttf);
+}
+.black{
+    color:#000000 ;
+}
+.withe{
+    color: #FFFFFF;
+}
+ .btn{
+    width: 40%;
+    display: inline-block;
+    color: #FFFFFF;
+    height:40px; 
+    background-color: #E10098;
+    margin-bottom: 5px;
+    padding-left:2px;
+    padding-right: 2px;
+    padding-top: 8px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:10%;
+}
+.container-box{
+    padding-bottom: 15px;
+    border-radius: 29px;
+    background-color:#FFFFFF;
+    width:80%;
+}
+input{
+    border: 2px solid #cacaca;
+    border-radius:5px;
+    height: 45px;
+    padding: 12px;
+    margin-bottom: 20px;
+    width: 80%;
+}
+/*media query*/
+@media (min-width: 700px){
+    .formata-texto{
+        font-size: 20px;
+    }
+    .btn{
+        width: 27%;
+    }
+    input{
+        width:55%;
+    }
+    .container-box{
+        width:50%;
+    }
+}

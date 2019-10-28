@@ -1,0 +1,71 @@
+body{text-align: center; background: #00859B;}
+@font-face{
+    font-family:titulos;
+    src:url(../fontes/Montserrat-Regular.ttf);
+}
+.container{
+    box-shadow: inset 0 0 1em #ffffff, 0 0 1em #00859B;
+    background: #ffffff;
+    padding: 15px 0;
+    width: 90%;
+    display:flex;
+    display: inline-block;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.head{
+    font-family: titulos;
+    display:inline-block;
+    background-color: #EF3340;
+    width: 70%;
+    height: 70px;
+    color: #ffffff;
+    font-size:18px;
+    padding: 2px;
+}
+.formata-texto{
+    font-family: titulos; 
+    font-weight: 400;
+    font-size: 18px;
+}
+form{
+    margin-top:20px;
+}
+input{
+
+    border: 2px solid #cacaca;
+    border-radius:5px;
+    height: 30px;
+    padding: 12px;
+    margin-bottom: 20px;
+    width: 65%;
+}
+
+.btn{
+    font-size:titulos;
+    border: 2px solid #EF3340;
+    background: #EF3340;
+    width:72%;
+    height: 50px;
+    border-radius:5px;
+    font-family: titulos;
+    color: #ffffff;
+    font-size: 19px;
+
+}
+@media (min-width:700px){
+    .container{
+        width: 50%;
+        
+    }
+    
+    .btn{
+        width:60%;
+    }
+    .head{
+        width:60%;
+    }
+    input{
+        width:56%;
+    }
+}
